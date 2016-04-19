@@ -1,0 +1,16 @@
+.container {
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+.col-3 {
+    width: percentage(3/12);
+}
+
+.col-8 {
+    width: percentage(8/12);
+}
+
+.col-12 {
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+.root {
+    composes: flip-container from 'sass!../shared/animations.scss';
+    margin: 1em 0;
+}
+
+.heading {
+    margin: 0 0 0.5em;
+}
+
+.image {
+    // border-radius: 10% / 50%;
+}
+
+.card {
+    composes: flipper from 'sass!../shared/animations.scss';
+}
+
+.front {
+    composes: front from 'sass!../shared/animations.scss';    
+    
+    img {
+        filter: grayscale(75%);
+    }
+}
+
+.back {
+    composes: back from 'sass!../shared/animations.scss';
+}

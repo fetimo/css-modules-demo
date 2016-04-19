@@ -1,0 +1,37 @@
+// $primary: #DA4C16;
+$primary: #23B4FF;
+$secondary: #ECBB68;
+$tertiary: #FEFEFE;
+$dark: #351106;
+
+.primary-text {
+    color: $primary;
+}
+
+.secondary-text {
+    color: $secondary;
+}
+
+.tertiary-text {
+    color: $tertiary;
+}
+
+.dark-text {
+    color: $dark;
+}
+
+.primary-background {
+    background-color: $primary;
+}
+
+.secondary-background {
+    background-color: $secondary;
+}
+
+.tertiary-background {
+    background-color: $tertiary;
+}
+
+.dark-background {
+    background-color: $dark;
+}

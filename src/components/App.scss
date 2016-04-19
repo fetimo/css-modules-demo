@@ -1,0 +1,36 @@
+@import "normalize.css";
+@import "shared/typography";
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+// body {
+//     background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/geometry2.png');
+// }
+
+.root {
+    composes: container from 'sass!./shared/grid.scss';
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+    > div {
+        background: #fff;
+        height: 210px;
+        border-left: 3px solid;
+        border-right: 3px solid;
+        flex: 0 1 percentage(3 / 12);
+        min-width: 28.5%;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,15 @@
+.root {
+    margin: 1em 0;
+}
+
+.heading {
+    margin: 0 0 0.5em;
+}
+
+.image {
+    // border-radius: 10% / 50%;
+}
+
+:global(.love) {
+    border: 1px solid red;
+}

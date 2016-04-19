@@ -1,0 +1,21 @@
+.root {
+    composes: primary-background tertiary-text from 'sass!../shared/colours.scss';
+    composes: brand-border from 'sass!../shared/utilities.scss';
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.inner {
+    composes: container from 'sass!../shared/grid.scss';    
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 139px;
+    margin-right: 1em;
+}
+
+.strapline {
+    font-weight: 100;
+}
